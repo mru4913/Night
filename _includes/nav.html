@@ -10,7 +10,7 @@
 						<h4>{{ site.title }}</h4>
 						<p>{{ site.description }}</p>
 					</li>
-					<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
+					<!-- <li><a href="{{ site.url }}/about/" target="_blank" rel="noopener noreferrer"> More </a></li> -->
 					{% if site.email %}<li>
                         <a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
                     </li>{% endif %}
@@ -31,6 +31,9 @@
                     </li>{% endif %}
                     {% if site.instagram %}<li>
                         <a href="http://instagram.com/{{ site.instagram }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-instagram"></i> Instagram</a>
+                    </li>{% endif %}
+                    {% if site.medium %}<li>
+                        <a href="http://medium.com/{{ site.medium }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw  fa-medium"></i> Medium </a>
                     </li>{% endif %}
                     {% if site.tumblr %}<li>
                         <a href="http://{{ site.tumblr }}.tumblr.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-tumblr-square"></i> Tumblr</a>
