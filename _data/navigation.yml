@@ -1,4 +1,9 @@
 # Site navigation links
 
-- title: Projects
+
+- title: Posts 
+  url: /posts/
+# - title: Tags <kbd>beta</kbd>
+#   url: /tags/
+- title: Projects <kbd>beta</kbd>
   url: /projects/
