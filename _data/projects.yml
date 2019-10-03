@@ -1,0 +1,28 @@
+# a list of projects 
+
+# template 
+# - title: 
+#   date:
+#     start:
+#     end:
+#   description:
+#   tag:
+#   cover_img:
+#   detail_img:
+#   link:
+
+
+- title: self-correcting helicopter model
+  date: 
+    start: 2016-01-01
+    end: 2016-04-01
+  description: Implemented the PID control in C/C++ for the 2-DOF helicopter to recover from external disturbances 
+    in both the pitch and yaw directions. The final product recovers from any external disturbance quickly 
+    and with minimal oscillations.
+  tags: [PID, Arduino]
+  cover_img: /img/helicopter.jpg
+  detail_img: /img/helicopter.gif
+  has_link: true
+  link: /404.html
+
+  

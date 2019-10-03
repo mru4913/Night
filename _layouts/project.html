@@ -9,6 +9,41 @@ layout: compress
 <head>
     {% include head.html %}
 </head>
+
+<style>
+.row {
+    display: inline-block;
+    width: 100%;
+}
+
+.col {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding-right: 1%;
+    align-content: center;
+}
+
+.project-tag{
+  display: inline-block;
+  font: 10px 'Roboto', sans-serif;
+  border: 1px #888 solid;
+  line-height: 1;
+  border-radius: 8px;
+  padding: 3px;
+  margin: 1px;
+}
+
+.project-tag:hover {
+  color: #000;
+}
+
+.float_right {
+    float:right;
+}
+
+</style>
+
 <body>
     {% include nav.html %}
     <!-- Header -->
@@ -22,16 +57,35 @@ layout: compress
                     </a>
                 </div>
                 <div class="post-list">
-                    {% for post in site.posts %} 
-                        {% if post.project %}
+                    {% for project in site.data.projects %} 
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                            <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                            <p>{{ post.excerpt }}</p>
-                            <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
+                            <a>{{ project.title | upcase }}</a>
+                            <br>
+                            <b>
+                                {{ project.date.start | date: "%Y %b"}} - {{ project.date.end | date: "%Y %b"}}
+                            </b>
+                            <div class="row">
+                                <div class="col">
+                                    <span>
+                                        {{ project.description }}
+                                    </span>
+                                    <br>
+                                    <br>
+                                    {% if project.has_link %}
+                                    <a href="{{ site.url }}{{ project.link }}" class="btn zoombtn">Read More</a>
+                                    {% endif %}
+                                </div>
+                                <div class="col">
+                                    <img src="http://placehold.it/400x200" alt="">
+                                    {% for tag in project.tags %}
+                                    <span class="project-tag">{{ tag }}</span>
+                                    {% unless forloop.last %}{% endunless %}
+                                    {% endfor %}
+                                </div>
+                            </div>
                         </li>
                     </ul>
-                      {% endif %}
                     {% endfor %}
                 </div>
             </div>
