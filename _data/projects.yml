@@ -11,18 +11,62 @@
 #   detail_img:
 #   link:
 
+- title: Shinyapp website
+  disaply: block
+  theme: [software]
+  date: 
+    start: 2019-01-01
+    end: 2019-01-01
+  description:  Created a Shiny web app shows the survey of mental health programs effectiveness in Tech companies in 2014.
+  tags: [R, Shinyapp]
+  has_thumbnail: true
+  thumbnail: /projects/img/shinyapps_500.jpg
+  detail_thumbnail: /projects/img/shinyapps_500.jpg
+  has_link: true
+  link: https://mru4913.shinyapps.io/Mental-Health-Analysis_Vis-App/
+
+- title: UBC Bus shelter data logger
+  display: block
+  theme: [software, hardware]
+  date: 
+    start: 2018-01-01
+    end: 2018-04-01
+  description: 
+  tags: [C/C++, FSM, Arduino, IOT]
+  has_thumbnail: true
+  thumbnail: /projects/img/datalogger.jpg
+  detail_thumbnail: /projects/img/datalogger.gif
+  has_link: true
+  link: https://www.youtube.com/watch?v=A0ph8MObTY4
+
+- title: Genetic Algorithm & GUI
+  display: inline
+  theme: [software]
+  date: 
+    start: 2017-03-01
+    end: 2017-04-01
+  description: 
+  tags: [Python, Tkinter]
+  has_thumbnail: false
+  thumbnail: 
+  detail_thumbnail:
+  has_link: False
+  link: 
 
 - title: self-correcting helicopter model
+  display: block
+  theme: [hardware, mechanic]
   date: 
     start: 2016-01-01
     end: 2016-04-01
   description: Implemented the PID control in C/C++ for the 2-DOF helicopter to recover from external disturbances 
     in both the pitch and yaw directions. The final product recovers from any external disturbance quickly 
     and with minimal oscillations.
-  tags: [PID, Arduino]
-  cover_img: /img/helicopter.jpg
-  detail_img: /img/helicopter.gif
+  tags: [C/C++, PID, Arduino, Solidwork]
+  has_thumbnail: true
+  thumbnail: /projects/img/helicopter.jpg
+  detail_thumbnail: /projects/img/helicopter.gif
   has_link: true
-  link: /404.html
+  link: https://www.youtube.com/watch?v=hKBk48Tjly0 
 
   
