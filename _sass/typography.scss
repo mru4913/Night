@@ -1,7 +1,7 @@
 // content area
 .content {
 	@include font-size(14);
-	padding: 0 2rem;
+	padding: 0; // 2rem
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased !important;
 	-moz-font-smoothing: antialiased !important;
@@ -45,7 +45,7 @@ h3.title a {
 		padding-left: 0;
 	}
 	li {
-		padding: 10px 18px;
+		padding: 5px 18px;
 		margin: 0 10px;
 		text-decoration: none;
 		background: $white;
