@@ -93,9 +93,59 @@ layout: compress
   margin: 1px;
 }
 .project-content .project-tag:hover {
-  color: #000;
   text-decoration: underline;
 }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .project {
+    width: 48%;
+    max-width: 100%;
+    margin: 0 0.9% 1.5%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .project .project-thumbnail {
+    width: 100%;
+  }
+  .project .project-content {
+    width: 100%;
+  }
+  .project .project-content .project-title {
+    margin: 0 0 5px;
+  }
+  .project .project-content .project-title a {
+    font-size: 21px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .project {
+    width: 98%;
+    max-width: 100%;
+    margin: 2%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .project .project-thumbnail {
+    width: 100%;
+  }
+  .project .project-content {
+    width: 100%;
+  }
+  .project .project-content .project-title {
+    margin: 0 0 5px;
+  }
+  .project .project-content .project-title a {
+    font-size: 21px;
+  }
 </style>
 
 <body>
@@ -114,17 +164,13 @@ layout: compress
                     <ul>
                         {% for project in site.data.projects %} 
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                            {% if project.display == "block" %}
-                            <article class="project" style="height: 250px;">
-                            {% else %}
-                            <article class="project" style="height: 100px;">
-                            {% endif %}
+                            <article class="project" >
                                 <div class="project-content">
                                     <a>{{project.title | upcase }}</a> <br>
                                     <span class="project-date">
                                     {{project.date.start | date: '%Y %b'}} - {{project.date.end | date: '%Y %b'}}
                                     </span>
-                                    <p>{{ project.description | strip_html | truncatewords: 40, "..." }}</p>
+                                    <p>{{ project.description | strip_html }}</p>
                                     <span>
                                     {% for tag in project.tags %}
                                     <span class="project-tag">{{ tag }}</span>

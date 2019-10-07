@@ -1,23 +1,31 @@
 # a list of projects 
 
-# template 
-# - title: 
-#   date:
-#     start:
-#     end:
-#   description:
-#   tag:
-#   cover_img:
-#   detail_img:
-#   link:
+#################################
+#  2019
+#################################
+- title: TRIUMF NA62 Particle Classification
+  theme: [software]
+  date: 
+    start: 2019-05-01
+    end: 2019-06-01
+  role: team
+  description: Implemented a machine learning model in Python to improve subatomic particles identification 
+    to less than six in a million cases of misclassification (6e-6).
+  tags: [Python, ML, LGBM, Pytorch]
+  has_thumbnail: true
+  thumbnail: /projects/img/muon.png
+  detail_thumbnail: /projects/img//muon.png
+  has_link: false
+  link: 
 
 - title: Shinyapp website
-  disaply: block
   theme: [software]
   date: 
     start: 2019-01-01
     end: 2019-01-01
-  description:  Created a Shiny web app shows the survey of mental health programs effectiveness in Tech companies in 2014.
+  role: team 
+  description:  Created a Shiny web app shows the survey of mental health programs effectiveness in 
+    Tech companies in 2014.
   tags: [R, Shinyapp]
   has_thumbnail: true
   thumbnail: /projects/img/shinyapps_500.jpg
@@ -25,13 +33,18 @@
   has_link: true
   link: https://mru4913.shinyapps.io/Mental-Health-Analysis_Vis-App/
 
+#################################
+#  2018
+#################################
 - title: UBC Bus shelter data logger
-  display: block
   theme: [software, hardware]
   date: 
     start: 2018-01-01
     end: 2018-04-01
-  description: 
+  role: team
+  description: Designed & developed an integrated waterproof data logging system that collects air & soil temperature, 
+    wind speed & direction and water flow runoff. The products is also capable of transmitting the relevant data over 
+    3G to an IOT website for visualization. 
   tags: [C/C++, FSM, Arduino, IOT]
   has_thumbnail: true
   thumbnail: /projects/img/datalogger.jpg
@@ -39,13 +52,16 @@
   has_link: true
   link: https://www.youtube.com/watch?v=A0ph8MObTY4
 
+#################################
+#  2017
+#################################
 - title: Genetic Algorithm & GUI
-  display: inline
   theme: [software]
   date: 
     start: 2017-03-01
     end: 2017-04-01
-  description: 
+  role: individual
+  description: Implemented genetic algorithm.  
   tags: [Python, Tkinter]
   has_thumbnail: false
   thumbnail: 
@@ -53,12 +69,15 @@
   has_link: False
   link: 
 
+#################################
+#  2016
+#################################
 - title: self-correcting helicopter model
-  display: block
   theme: [hardware, mechanic]
   date: 
     start: 2016-01-01
     end: 2016-04-01
+  role: team
   description: Implemented the PID control in C/C++ for the 2-DOF helicopter to recover from external disturbances 
     in both the pitch and yaw directions. The final product recovers from any external disturbance quickly 
     and with minimal oscillations.
@@ -69,4 +88,22 @@
   has_link: true
   link: https://www.youtube.com/watch?v=hKBk48Tjly0 
 
+
+#################################
+#  2015
+#################################
+- title: ELectromagnetic Tether Robot
+  theme: [hardware, mechanic]
+  date: 
+    start: 2015-03-01
+    end: 2015-03-01
+  role: team
+  description: Designed, built, programed and tested an electromagnetic tether robot that keeps a fixed distance from 
+    the remote transmitter and also follows the user command to rotating 180 degrees, parallel parking and so on.
+  tags: [C,  Circuit design, Prototyping]
+  has_thumbnail: false
+  thumbnail: 
+  detail_thumbnail: 
+  has_link: false
+  link: 
   
