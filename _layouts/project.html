@@ -146,6 +146,7 @@ layout: compress
   .project .project-content .project-title a {
     font-size: 21px;
   }
+}
 </style>
 
 <body>
@@ -184,9 +185,9 @@ layout: compress
                                 </div>
                                 {% if project.has_thumbnail %}
                                 <div class="project-thumbnail">
-                                    <img src={{project.thumbnail}}
-                                    onmouseover="this.src='{{project.detail_thumbnail}}';" 
-                                    onmouseout="this.src='{{project.thumbnail}}';"/>
+                                    <img src={{site.url}}{{project.thumbnail}}
+                                    onmouseover="this.src='{{site.url}}{{project.detail_thumbnail}}';" 
+                                    onmouseout="this.src='{{site.url}}{{project.thumbnail}}';"/>
                                 </div>
                                 {% else %}
                                 <div class="project-thumbnail">
