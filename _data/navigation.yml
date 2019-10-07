@@ -5,7 +5,9 @@
   url: /posts/
 # - title: Tags <kbd>beta</kbd>
 #   url: /tags/
-- title: Projects <sup  style="color:red">New</sup>
+# - title: Documents 
+#   url: /documents/
+- title: Projects <sup  style="color:red">New!</sup>
   url: /projects/
 - title: Resume 
   url: /resume/
