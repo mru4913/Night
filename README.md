@@ -1,8 +1,10 @@
 ---
-author: Mengda(Albert) Yu
+Author: Mengda(Albert) Yu
 title: README
 layout: default
 ---
 
-# A place of mind 
+
+
+
 
