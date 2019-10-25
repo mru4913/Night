@@ -1,0 +1,15 @@
+# a list of documents 
+
+- theme: unsupervised learning 
+  content: 
+  - title: K-means
+    link: https://nbviewer.jupyter.org/github/mru4913/Unsupervised-Learning_in-Python/blob/master/K-Means.ipynb
+
+- theme: SQL
+  content: 
+  - title: Chapter 1 
+    link: /404.html
+  - title: Chapter 2
+    link: /404.html
+  - title: Chapter 3
+    link: /404.html
