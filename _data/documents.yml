@@ -7,9 +7,9 @@
 
 - theme: SQL
   content: 
-  - title: Chapter 1 
-    link: /404.html
-  - title: Chapter 2
-    link: /404.html
-  - title: Chapter 3
-    link: /404.html
+  - title: General concept about SQL
+    link: https://github.com/mru4913/SQL_note/blob/master/ch1.md
+  - title: Basic querying using SQL
+    link: https://github.com/mru4913/SQL_note/blob/master/ch2.md
+  - title: Advanced querying using SQL 
+    link: https://github.com/mru4913/SQL_note/blob/master/ch3.md
