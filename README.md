@@ -1,8 +1,6 @@
----
-author: Mengda(Albert) Yu
-title: README
-layout: default
----
+A personal website.
 
-# A place of mind 
+
+
+
 
