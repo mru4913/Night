@@ -11,7 +11,7 @@
   role: team
   description: Implemented a machine learning model in Python to improve subatomic particles identification 
     to less than six in a million cases of misclassification (6e-6).
-  tags: [Python, ML, LGBM, Pytorch]
+  tags: [ML/DL, Python, Pytorch, CNN, LGBM]
   has_thumbnail: true
   thumbnail: /projects/img/muon.png
   detail_thumbnail: /projects/img//muon.png
@@ -26,7 +26,7 @@
   role: team 
   description:  Created a Shiny web app shows the survey of mental health programs effectiveness in 
     Tech companies in 2014.
-  tags: [R, Shinyapp]
+  tags: [Data Visualization, R, Shinyapp,]
   has_thumbnail: true
   thumbnail: /projects/img/shinyapps_500.jpg
   detail_thumbnail: /projects/img/shinyapps_500.jpg

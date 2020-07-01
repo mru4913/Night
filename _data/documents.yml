@@ -13,3 +13,8 @@
     link: https://github.com/mru4913/SQL_note/blob/master/ch2.md
   - title: Advanced querying using SQL 
     link: https://github.com/mru4913/SQL_note/blob/master/ch3.md
+
+- theme: computer vision 
+  content:
+  - title: Faster RCNN in pytorch 
+    link: https://404.html
