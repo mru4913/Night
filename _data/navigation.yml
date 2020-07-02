@@ -4,9 +4,9 @@
   url: /posts/
 # - title: Tags <kbd>beta</kbd>
 #   url: /tags/
-- title: Documents <sup  style="color:red">New!</sup>
+- title: Documents #<sup  style="color:red">New!</sup>
   url: /documents/
-- title: Projects <sup  style="color:red">New!</sup>
+- title: Projects #<sup  style="color:red">New!</sup>
   url: /projects/
 - title: Resume 
   url: /resume/
