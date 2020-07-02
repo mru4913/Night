@@ -40,15 +40,16 @@ The following code is used to achieve this method.
     bottom = min(rect1[2], rect2[2])
     right = min(rect1[3], rect2[3])
 
-    # check wether two rectangles have an intersection 
+    # check whether two rectangles have an intersection 
     if left < right and top < bottom:
         # this shows that two rects truly have an intersection
-        # calculate area of each rectangles
+        # calculate area of each rectangle
         s_rect1 = (rect1[2] - rect1[0]) * (rect1[3] - rect1[1])
         s_rect2 = (rect2[2] - rect2[0]) * (rect2[3] - rect2[1])
-
+        
+        # calculate the area of the intersection
         intersection = (right - left) * (bottom - top)
-        return 1.0 * (intersection) / (s_rect1 + s_rect2)
+        return 1.0 * (intersection) / (s_rect1 + s_rect2 - intersection)
     else:
         return 0.0
 
