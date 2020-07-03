@@ -1,6 +1,6 @@
 # Site navigation links
 
-- title: Posts 
+- title: Posts # <sup style="color:red">New!</sup>
   url: /posts/
 # - title: Tags <kbd>beta</kbd>
 #   url: /tags/

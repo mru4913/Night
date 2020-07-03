@@ -7,6 +7,8 @@ tags: [Python, CV]
 comments: false
 ---
 
+
+
 With python and `PIL` package, you can easily make you image look like sketch.
 
 {% highlight python %}
@@ -52,11 +54,11 @@ draw(img)
 
 {% endhighlight %}
 
-<!-- The results are shown  below.
+The results are shown  below.
 {% highlight html %}
 <figure class="half">
     <img src="/_img_/20190105/img1.png">
     <img src="/_img/20190105/img_sketch.png">
-    <figcaption>Caption describing these two images.</figcaption>
+    <figcaption>sketch</figcaption>
 </figure>
-{% endhighlight %} -->
+{% endhighlight %}
