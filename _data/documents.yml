@@ -16,5 +16,5 @@
 
 - theme: computer vision 
   content:
-   - title: RCNN, Fast RCNN & Faster RCNN
-     link: https://nbviewer.jupyter.org/github.com/mru4913/cv/blob/master/RCNN/RCNNs.ipynb
+  - title: Faster RCNN in pytorch 
+    link: https://nbviewer.jupyter.org/github/mru4913/cv/blob/master/RCNN/RCNNs.ipynb
