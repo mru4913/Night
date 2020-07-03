@@ -1,6 +1,6 @@
 # a list of documents 
 
-- theme: unsupervised learning 
+- theme: Unsupervised Learning 
   content: 
   - title: K-means
     link: https://nbviewer.jupyter.org/github/mru4913/Unsupervised-Learning_in-Python/blob/master/K-Means.ipynb
@@ -14,7 +14,7 @@
   - title: Advanced querying using SQL 
     link: https://github.com/mru4913/SQL_note/blob/master/ch3.md
 
-- theme: computer vision 
+- theme: Computer Vision 
   content:
   - title: RCNN, Fast RCNN & Faster RCNN
     link: https://nbviewer.jupyter.org/github/mru4913/cv/blob/master/RCNN/RCNNs.ipynb
