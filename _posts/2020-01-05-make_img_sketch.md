@@ -54,6 +54,6 @@ draw(img)
 
 The results are shown  below.
 <figure class="half">
-    <img src="Night/posts/img/20190105/img.png">
-    <img src="Night/posts/img/20190105/img_sketch.png">
+    <img src="https://mru4913.github.io/Night/posts/img/20190105/img.png">
+    <img src="https://mru4913.github.io/Night/posts/img/20190105/img_sketch.png">
 </figure>
