@@ -7,8 +7,6 @@ tags: [Python, CV]
 comments: false
 ---
 
-
-
 With python and `PIL` package, you can easily make you image look like sketch.
 
 {% highlight python %}
@@ -56,6 +54,6 @@ draw(img)
 
 The results are shown  below.
 <figure class="half">
-    <img src="/images/20190105/img.png">
-    <img src="/images/20190105/img_sketch.png">
+    <img src="/posts/img/20190105/img.png">
+    <img src="/posts/img/20190105/img_sketch.png">
 </figure>

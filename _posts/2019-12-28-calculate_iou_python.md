@@ -7,7 +7,6 @@ tags: [Python, Deel Learning, CV]
 comments: false
 ---
 
-
 In computer vision prediction with bounding boxes, one way to measure the similarity between anchor boxes and the ground-truth bounding box is IOU (Intersection over uion), simply shown as following:
 
 \\[ \text{IOU} = \frac{\text{the area of the interection}}{\text{the are of the union}} \\]
