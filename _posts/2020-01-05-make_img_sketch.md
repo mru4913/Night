@@ -55,10 +55,7 @@ draw(img)
 {% endhighlight %}
 
 The results are shown  below.
-{% highlight html %}
 <figure class="half">
-    <img src="/_img_/20190105/img1.png">
-    <img src="/_img/20190105/img_sketch.png">
-    <figcaption>sketch</figcaption>
+    <img src="/images/20190105/img.png">
+    <img src="/images/20190105/img_sketch.png">
 </figure>
-{% endhighlight %}
