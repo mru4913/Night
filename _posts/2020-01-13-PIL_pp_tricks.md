@@ -1,5 +1,5 @@
 ---
-layout: post
+layhttps://mru4913.github.io/Night/posts/img/20200113/out: post
 title: "PIL image preprocess tricks using Python"
 date: 2020-01-13
 excerpt: ""
@@ -12,7 +12,7 @@ import numpy as np
 from PIL import Image
 from PIL import ImageFilter
 from PIL import ImageEnhance
-{% endhighlight %}}
+{% endhighlight %}
 
 # Preprocess images using PIL
 
@@ -31,12 +31,12 @@ We can use `PIL` package to preprocess images in order to do some other stuff(?)
 # Open images 
 img = Image.open('./code.png')
 img
-{% endhighlight %}}
+{% endhighlight %}
 
 
 
 
-![png](output_2_0.png)
+![png](https://mru4913.github.io/Night/posts/img/20200113/output_2_0.png)
 
 
 
@@ -48,12 +48,12 @@ img
 # Here, we use a median fileter to keep the edge and the details of the imgage
 img = img.filter(ImageFilter.MedianFilter(5)) 
 img
-{% endhighlight %}}
+{% endhighlight %}
 
 
 
 
-![png](output_3_0.png)
+![png](https://mru4913.github.io/Night/posts/img/20200113/output_3_0.png)
 
 
 
@@ -64,28 +64,28 @@ img
 # We can increase the contrast to highlight characters in compare to other noise 
 img = ImageEnhance.Contrast(img).enhance(1.3)#enhance()
 img
-{% endhighlight %}}
+{% endhighlight %}
 
 
 
 
-![png](output_4_0.png)
+![png](https://mru4913.github.io/Night/posts/img/20200113/output_4_0.png)
 
 
 
 
 {% highlight python %}
 # Scale change
-# We do not care about the color 
+# We do not care abhttps://mru4913.github.io/Night/posts/img/20200113/out the color 
 # change it to grey scale 
 img = img.convert('L')
 img
-{% endhighlight %}}
+{% endhighlight %}
 
 
 
 
-![png](output_5_0.png)
+![png](https://mru4913.github.io/Night/posts/img/20200113/output_5_0.png)
 
 
 
@@ -104,18 +104,18 @@ def remove_pixel(img, vrange=(150,220)):
                 pixdata[i,j] = 255
 
     return img
-{% endhighlight %}}
+{% endhighlight %}
 
 
 {% highlight python %}
 img = remove_pixel(img)
 img
-{% endhighlight %}}
+{% endhighlight %}
 
 
 
 
-![png](output_7_0.png)
+![png](https://mru4913.github.io/Night/posts/img/20200113/output_7_0.png)
 
 
 
@@ -139,7 +139,7 @@ def denoise(im):
             if count > 2:
                 pixdata[i,j] = 255
     return im
-{% endhighlight %}}
+{% endhighlight %}
 
 
 {% highlight python %}
@@ -155,18 +155,18 @@ def binarizing(img, threshold):
             else:
                 pixdata[i,j] = 255
     return img
-{% endhighlight %}}
+{% endhighlight %}
 
 
 {% highlight python %}
 img = binarizing(img, 200)
 img
-{% endhighlight %}}
+{% endhighlight %}
 
 
 
 
-![png](output_10_0.png)
+![png](https://mru4913.github.io/Night/posts/img/20200113/output_10_0.png)
 
 
 
@@ -179,18 +179,18 @@ w, h = img.size
 imgg_w = w/n
 for i in range(n):
     img.crop((0 + imgg_w * i, 0, imgg_w * (i+1), h)).show()
-{% endhighlight %}}
+{% endhighlight %}
 
 
 {% highlight python %}
 # Numpy to PIL image 
 Image.fromarray(np.random.randint(0,255,(30,30)).astype('uint8'))
-{% endhighlight %}}
+{% endhighlight %}
 
 
 
 
-![png](output_12_0.png)
+![png](https://mru4913.github.io/Night/posts/img/20200113/output_12_0.png)
 
 
 
@@ -198,7 +198,7 @@ Image.fromarray(np.random.randint(0,255,(30,30)).astype('uint8'))
 {% highlight python %}
 # PIl image to array
 np.array(img)
-{% endhighlight %}}
+{% endhighlight %}
 
 
 ```
