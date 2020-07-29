@@ -1,5 +1,5 @@
 ---
-layhttps://mru4913.github.io/Night/posts/img/20200113/out: post
+layout: post
 title: "PIL image preprocess tricks using Python"
 date: 2020-01-13
 excerpt: ""
