@@ -3,7 +3,7 @@ layout: post
 title: "Calculate IOU using Python"
 date: 2019-12-28
 excerpt: ""
-tags: [Python, Deel Learning, CV]
+tags: [EN, Python, Deel Learning, CV]
 comments: false
 ---
 

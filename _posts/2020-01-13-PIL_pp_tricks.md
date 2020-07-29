@@ -3,7 +3,7 @@ layout: post
 title: "PIL image preprocess tricks using Python"
 date: 2020-01-13
 excerpt: ""
-tags: [Python, CV]
+tags: [EN, Python, CV]
 comments: false
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Make your image look like a sketch using python"
 date: 2020-01-05
 excerpt: ""
-tags: [Python, CV]
+tags: [EN, Python, CV]
 comments: false
 ---
 
